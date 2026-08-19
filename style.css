@@ -1,0 +1,90 @@
+/* color palette (Kanagawa):
+    Background — #1f1f28
+    Keywords (if, def, return) — #957fb8
+    Types / classes — #7aa89f
+    Modules / imports — #98bb6c
+    Comments / docstrings — #727169
+    Default text / variables — #dcd7ba
+    Strings / function names — #98bb6c
+    Parameters / constants — #ffa066
+    Numbers — #d27e99
+*/
+body {
+    min-width: 300px;
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1f1f28;
+    padding: 0 16px;
+    box-sizing: border-box;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+p, li {
+    color: #dcd7ba;
+}
+header {
+    padding: 5px;
+}
+header h3 {
+    color: #7aa89f;
+}
+header hr {
+    color: #98bb6c;
+}
+.lang-options {
+    width: auto;
+    text-align: right;
+}
+.lang-options a {
+    color: #d27e99;
+    font-size: 14px;
+    text-decoration: none;
+}
+.lang-options a:hover {
+    text-decoration: underline;
+}
+canvas#life {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #000000;
+    image-rendering: pixelated;
+}
+main h3 {
+    color: #98bb6c;
+}
+.links a {
+    color: #98bb6c;
+    text-decoration: none;
+}
+.blog {
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+.preview {
+    display: flex;
+}
+.blog-preview {
+    flex: 1;
+    border: 2px solid #d27e99;
+    border-radius: 6px;
+    width: 350px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 5px;
+}
+.blog-preview h4 {
+    color: #98bb6c;
+}
+footer {
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .lang-options {
+        text-align: center;
+    }
+    header h3 {
+        font-size: 1.1rem;
+    }
+}
