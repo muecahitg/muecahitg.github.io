@@ -28,6 +28,7 @@ header {
 }
 header h3 {
     color: #7aa89f;
+    font-family: "Grumpy W05 Black36";
 }
 header hr {
     color: #98bb6c;
@@ -79,6 +80,7 @@ main h3 {
 }
 footer {
     text-align: center;
+    font-family: "Grumpy W05 Black36";
 }
 @media (max-width: 480px) {
     .lang-options {
